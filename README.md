@@ -45,12 +45,12 @@ The project uses a custom electronics sales dataset that includes:
 - Implemented percentage calculations to show how each sale compares to category and global maximums
 - Provides context for individual sales performance
 
-## Screenshots and Explanations
+## Table Creation
 ![TABLE CREATION](/screenshots/Table_creation.png)
 
-### Query Results
+## Data Insertion
 ![DATA INSERTION](/screenshots/Data_insertion.png)
-
+## Queries
 1. ![LAG and LEAD Functions](/screenshots/Task_1.png)
    This screenshot demonstrates the LAG() and LEAD() window functions comparing each sale's total amount with previous and next records chronologically. Notice how the comparison indicators show whether values are HIGHER, LOWER, or EQUAL, providing immediate trend visibility.
 
@@ -60,16 +60,12 @@ The project uses a custom electronics sales dataset that includes:
 3. ![Top 3 Products Per Category](/screenshots/Task_3.png)
    This image shows the top 3 highest-selling products in each category based on total sales amount. The DENSE_RANK() function ensures we capture exactly three products per category regardless of ties.
 
-4. ![First Sales by Region](/screenshots/Task_3.png)
+4. ![First Sales by Region](/screenshots/Task_4.png)
    The ROW_NUMBER() function lets us identify the first two sales transactions from each region based on sale date. This helps us understand initial sales patterns and which products were first to sell in different regions.
 
-5. ![Aggregation Window Functions](/screenshots/Task_4.png)
+5. ![Aggregation Window Functions](/screenshots/Task_5.png)
    This screenshot illustrates how window functions can perform multi-level aggregations, showing both category-specific maximums and overall maximum sales amounts alongside individual transactions.
 
-### Data Analysis
-
-6. ![Monthly Sales Trend](/screenshots/Task_5.png)
-   Analysis of monthly sales trends across all regions showing how window functions can be used to calculate moving averages that smooth out short-term fluctuations while highlighting longer-term trends.
 ## Real-Life Applications
 The repository includes discussion of practical business applications for window functions:
 - Sales performance analysis
