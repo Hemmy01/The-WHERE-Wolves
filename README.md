@@ -87,8 +87,3 @@ The repository includes discussion of practical business applications for window
 - Oracle SQL
 - SQL Window Functions
 - Common Table Expressions (CTE)
-
-## Future Improvements
-- Add more complex partitioning examples
-- Implement rolling averages and running totals
-- Expand dataset with more variables for deeper analysis
